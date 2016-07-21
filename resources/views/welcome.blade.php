@@ -38,8 +38,14 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">ShawnSandy.Design</div>
+               <h1> <img src="/img/site-address@2x.png" alt="www.shawnsandy.design"></h1>
+                <div class="title">
+                    <img src="/img/site-logo@2x.png" alt="logo">
+
+                </div>
+
             </div>
+           
         </div>
     </body>
 </html>
