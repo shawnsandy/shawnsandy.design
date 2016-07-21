@@ -23,6 +23,7 @@
                 text-align: center;
                 display: table-cell;
                 vertical-align: middle;
+                height: 650px;
             }
 
             .content {
@@ -41,7 +42,6 @@
                <h1 style="margin-bottom: 60px"> <img src="/img/site-address@2x.png" alt="www.shawnsandy.design"></h1>
                 <div class="title">
                     <img src="/img/site-logo@2x.png" alt="logo">
-
                 </div>
 
             </div>
