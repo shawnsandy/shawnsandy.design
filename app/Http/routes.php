@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('/pages/{name}', function ($name = 'about') {
+    return view('pages/'.$name);
+});
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
