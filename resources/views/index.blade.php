@@ -27,7 +27,7 @@
 @push('scripts')
 <script>
     $(document).ready(function(){
-        $('.logo').slideToggle( 3400, "linear" );
+        $('.logo').fadeToggle( 4000, "linear" );
     })
 </script>
 @endpush
