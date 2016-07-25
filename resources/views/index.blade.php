@@ -3,7 +3,7 @@
 <section class="cover">
     <div class="layout-table">
         <div class="layout-row">
-            <div class="">
+            <div class="logo">
                 <img src="/img/site-cover.png" alt="logo">
             </div>
         </div>
@@ -17,4 +17,18 @@
     </div>
 
 </footer>
+@push('styles')
+<style type="text/css">
+    .logo {
+        display: none;
+    }
+</style>
+@endpush
+@push('scripts')
+<script>
+    $(document).ready(function(){
+        $('.logo').slideToggle( 3400, "linear" );
+    })
+</script>
+@endpush
 @endsection

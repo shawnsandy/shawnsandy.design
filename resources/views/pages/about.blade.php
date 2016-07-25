@@ -1,5 +1,4 @@
 @extends('layouts.main')
-
 @section('page')
     <div class="container">
         <div class="row">
@@ -14,5 +13,4 @@
                 voluptatibus?</p>
         </div>
     </div>
-
-  @endsection
+@endsection
