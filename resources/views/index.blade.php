@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('content')
+@section('page')
 <section class="cover">
     <div class="layout-table">
         <div class="layout-row">
@@ -15,7 +15,6 @@
             &copy; Shawn Sandy
         </div>
     </div>
-
 </footer>
 @push('styles')
 <style type="text/css">

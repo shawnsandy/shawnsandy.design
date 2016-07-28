@@ -1,5 +1,5 @@
 @extends('layouts.main-page')
-@section('page')
+@section('content')
     <div class="container">
         <div class="row">
             <h1>About us</h1>
