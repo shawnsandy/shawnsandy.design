@@ -160,6 +160,7 @@ return [
 
         ShawnSandy\PageKit\PageKitServiceProvider::class,
 
+
         /*
          * Vendors
          */

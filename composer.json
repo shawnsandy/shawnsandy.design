@@ -21,6 +21,8 @@
             "database"
         ],
         "psr-4": {
+            "ShawnSandy\\PageKit\\": "packages/ShawnSandy/PageKit/src",
+            
             "ShawnSandy\\PageKit\\": "packages/shawnsandy/pagekit/src/",
             "App\\": "app/",
             "Modules\\": "modules/"
