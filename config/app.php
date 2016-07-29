@@ -162,6 +162,7 @@ return [
          * Vendors
          */
         Nwidart\Modules\LaravelModulesServiceProvider::class,
+        Sven\EnvProviders\EnvServiceProvider::class,
 
     ],
 
