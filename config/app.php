@@ -158,10 +158,13 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        ShawnSandy\PageKit\PageKitServiceProvider::class,
+
         /*
          * Vendors
          */
         Nwidart\Modules\LaravelModulesServiceProvider::class,
+        JeroenG\Packager\PackagerServiceProvider::class,
 
     ],
 
