@@ -156,16 +156,13 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
-
-        ShawnSandy\PageKit\PageKitServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,        
 
 
         /*
          * Vendors
          */
         Nwidart\Modules\LaravelModulesServiceProvider::class,
-        Sven\EnvProviders\EnvServiceProvider::class,
         JeroenG\Packager\PackagerServiceProvider::class,
 
     ],

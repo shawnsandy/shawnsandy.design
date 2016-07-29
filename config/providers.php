@@ -16,7 +16,7 @@ return [
         'environments' => ['local', 'development', 'dev'],
 
         'providers' => [
-            
+            ShawnSandy\PageKit\PageKitServiceProvider::class,
         ],
 
         'aliases' => [
