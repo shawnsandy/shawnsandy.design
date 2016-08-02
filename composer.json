@@ -21,6 +21,7 @@
             "database"
         ],
         "psr-4": {
+            "ShawnSandy\\UIForms\\": "packages/ShawnSandy/UIForms/src",
             "ShawnSandy\\PageKit\\": "packages/ShawnSandy/PageKit/src",
             
             "ShawnSandy\\PageKit\\": "packages/shawnsandy/pagekit/src/",
