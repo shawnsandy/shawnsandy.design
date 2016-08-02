@@ -7,8 +7,7 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "shawnsandy/laravel-install-kit": "^0.6.3",
-        "sven/env-providers": "^3.0"
+        "shawnsandy/laravel-install-kit": "^0.6.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -22,6 +21,7 @@
             "database"
         ],
         "psr-4": {
+            "ShawnSandy\\UIForms\\": "packages/ShawnSandy/UIForms/src",
             "ShawnSandy\\PageKit\\": "packages/ShawnSandy/PageKit/src",
             
             "ShawnSandy\\PageKit\\": "packages/shawnsandy/pagekit/src/",
@@ -51,6 +51,6 @@
         ]
     },
     "config": {
-        "preferred-install": "stable"
+        "preferred-install": "dist"
     }
 }
