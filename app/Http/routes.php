@@ -19,6 +19,10 @@ Route::get('/pages/{name}', function ($name = 'about') {
     return view('pages/'.$name);
 });
 
+Route::get('/test', function() {
+    return App::VERSION();
+});
+
 Route::auth();
 
 Route::get('/home', 'HomeController@index');

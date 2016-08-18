@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "db4cbb25be261b201a103c742d62f21a",
-    "content-hash": "16c7a45773a99b54c18e7fd732f5493e",
+    "hash": "142612f795a39186a7e463a47770c10b",
+    "content-hash": "d73338cf25d053e97c34c5926e45daa0",
     "packages": [
         {
             "name": "anahkiasen/former",
@@ -3011,6 +3011,79 @@
                 "twitter"
             ],
             "time": "2015-10-23 04:02:07"
+        },
+        {
+            "name": "lsrur/inspector",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lsrur/inspector.git",
+                "reference": "a25a186e322db251412bba1eb408f9974d127554"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lsrur/inspector/zipball/a25a186e322db251412bba1eb408f9974d127554",
+                "reference": "a25a186e322db251412bba1eb408f9974d127554",
+                "shasum": ""
+            },
+            "require": {
+                "lsrur/toolbelt": "0.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lsrur\\Inspector\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Laravel Inspector, debugging and profiling tools for Web Artisans",
+            "keywords": [
+                "debug",
+                "exceptions",
+                "laravel",
+                "profiler"
+            ],
+            "time": "2016-08-02 16:06:10"
+        },
+        {
+            "name": "lsrur/toolbelt",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lsrur/toolbelt.git",
+                "reference": "f147b28c9812f1fd88c6cce10afe92a87c5bb3ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lsrur/toolbelt/zipball/f147b28c9812f1fd88c6cce10afe92a87c5bb3ef",
+                "reference": "f147b28c9812f1fd88c6cce10afe92a87c5bb3ef",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Toolbelt.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Set of PHP helper functions wrapped for Laravel.",
+            "keywords": [
+                "functions",
+                "helpers",
+                "laravel",
+                "php",
+                "tools"
+            ],
+            "time": "2016-07-30 05:13:09"
         },
         {
             "name": "maatwebsite/excel",
