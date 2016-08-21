@@ -166,6 +166,7 @@ return [
         Nwidart\Modules\LaravelModulesServiceProvider::class,
         JeroenG\Packager\PackagerServiceProvider::class,
         Sven\EnvProviders\EnvServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
 
     ],
 

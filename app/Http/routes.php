@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/pages/{name}', function ($name = 'about') {
+    
     return view('pages/'.$name);
 });
 
