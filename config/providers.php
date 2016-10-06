@@ -16,11 +16,12 @@ return [
         'environments' => ['local', 'development', 'dev'],
 
         'providers' => [
-            ShawnSandy\PageKit\PageKitServiceProvider::class
+            ShawnSandy\PageKit\PageKitServiceProvider::class,
+            Balping\BladeFunction\BladeFunctionServiceProvider::class,
         ],
 
         'aliases' => [
-            //
+           
         ],
     ],
 
