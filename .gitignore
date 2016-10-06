@@ -5,5 +5,4 @@ Homestead.yaml
 Homestead.json
 .env
 /modules
-/packages/
-!/packages/ShawnSandy/PageKit
+/packages/ShawnSandy/UIForms/
