@@ -30,10 +30,10 @@
     26 => 'Sven\\EnvProviders\\EnvServiceProvider',
     27 => 'Barryvdh\\Debugbar\\ServiceProvider',
     28 => 'Brotzka\\DotenvEditor\\DotenvEditorServiceProvider',
-    29 => 'GrahamCampbell\\Markdown\\MarkdownServiceProvider',
-    30 => 'Laravel\\Socialite\\SocialiteServiceProvider',
-    31 => 'Jtant\\LaravelEnvSync\\EnvSyncServiceProvider',
-    32 => 'Rap2hpoutre\\LaravelLogViewer\\LaravelLogViewerServiceProvider',
+    29 => 'Laravel\\Socialite\\SocialiteServiceProvider',
+    30 => 'Jtant\\LaravelEnvSync\\EnvSyncServiceProvider',
+    31 => 'Rap2hpoutre\\LaravelLogViewer\\LaravelLogViewerServiceProvider',
+    32 => 'Vinkla\\Shield\\ShieldServiceProvider',
   ),
   'eager' => 
   array (
@@ -54,9 +54,9 @@
     14 => 'Sven\\EnvProviders\\EnvServiceProvider',
     15 => 'Barryvdh\\Debugbar\\ServiceProvider',
     16 => 'Brotzka\\DotenvEditor\\DotenvEditorServiceProvider',
-    17 => 'GrahamCampbell\\Markdown\\MarkdownServiceProvider',
-    18 => 'Jtant\\LaravelEnvSync\\EnvSyncServiceProvider',
-    19 => 'Rap2hpoutre\\LaravelLogViewer\\LaravelLogViewerServiceProvider',
+    17 => 'Jtant\\LaravelEnvSync\\EnvSyncServiceProvider',
+    18 => 'Rap2hpoutre\\LaravelLogViewer\\LaravelLogViewerServiceProvider',
+    19 => 'Vinkla\\Shield\\ShieldServiceProvider',
   ),
   'deferred' => 
   array (

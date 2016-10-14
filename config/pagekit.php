@@ -2,35 +2,38 @@
 
 return [
 
-'page_title' => 'Laravel PageKit ',
+    'login_type' => 'sheild',
+    'login_env' => 'local',
 
-'page_slug' => 'Quick start pages for Laravel.',
+    'page_title' => 'Laravel PageKit ',
 
-'company_name' => 'ACME INC',
+    'page_slug' => 'Quick start pages for Laravel.',
 
-'contact_number' => '000 000 0000',
+    'company_name' => 'ACME INC',
 
-'email' => 'email@acmeinc.com',
+    'contact_number' => '000 000 0000',
 
-'ga_tracker' => 'UA_0000000_0',
+    'email' => 'email@acmeinc.com',
 
-'address' => '0000 Street, City, State zip',
+    'ga_tracker' => 'UA_0000000_0',
 
-'branding' => false,
+    'address' => '0000 Street, City, State zip',
 
-'brand' => [
-    'background_color' => '#FFFFFF',
-    'header_background_color' => '#EEEEEE',
-    'header_font_size' => '72px',
-    'font_family' => '"Helvetica Neue", Helvetica, Arial, sans_serif',
-    'header_font_color' => '#777777',
-    'footer_background_color' => '#333333',
-    'footer_color' => '#FFFFFF',
-    'header_color' => '#EEEEEE',
-    'text_color' => 'FFFFFF',
-    'header_background_image' => false,
-    'logo' => false,
-    'hide_header_title' => false
-]
+    'branding' => false,
+
+    'brand' => [
+        'background_color' => '#FFFFFF',
+        'header_background_color' => '#EEEEEE',
+        'header_font_size' => '72px',
+        'font_family' => '"Helvetica Neue", Helvetica, Arial, sans_serif',
+        'header_font_color' => '#777777',
+        'footer_background_color' => '#333333',
+        'footer_color' => '#FFFFFF',
+        'header_color' => '#EEEEEE',
+        'text_color' => 'FFFFFF',
+        'header_background_image' => false,
+        'logo' => false,
+        'hide_header_title' => false
+    ]
 
 ];

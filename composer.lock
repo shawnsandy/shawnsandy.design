@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f6d25f15f3ded1591dc020a437eb786a",
-    "content-hash": "77f42aa2787169a323106a618a3d584a",
+    "hash": "18de9bf5f5037fc797f35df9a6012c34",
+    "content-hash": "765478da67ec1d7e9f23c66d80ab4a70",
     "packages": [
         {
             "name": "adamwathan/bootforms",
@@ -3038,6 +3038,58 @@
             "time": "2015-11-18 20:18:43"
         },
         {
+            "name": "spatie/laravel-littlegatekeeper",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-littlegatekeeper.git",
+                "reference": "19b5ce96f78ae4be0f0a26af737a54614bc7ccdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-littlegatekeeper/zipball/19b5ce96f78ae4be0f0a26af737a54614bc7ccdc",
+                "reference": "19b5ce96f78ae4be0f0a26af737a54614bc7ccdc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\LittleGateKeeper\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": ":package_description",
+            "homepage": "https://github.com/spatie/laravel-littlegatekeeper",
+            "keywords": [
+                "laravel-littlegatekeeper",
+                "spatie"
+            ],
+            "time": "2015-06-11 19:04:51"
+        },
+        {
             "name": "sven/env-providers",
             "version": "3.0.0",
             "source": {
@@ -3916,6 +3968,60 @@
                 "dump"
             ],
             "time": "2016-08-31 09:05:42"
+        },
+        {
+            "name": "vinkla/shield",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vinkla/laravel-shield.git",
+                "reference": "f14c66086a350c8993a81b8fc67f40b82654713c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vinkla/laravel-shield/zipball/f14c66086a350c8993a81b8fc67f40b82654713c",
+                "reference": "f14c66086a350c8993a81b8fc67f40b82654713c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.1.* || 5.2.* || 5.3.*",
+                "php": "^5.6.4 || ^7.0"
+            },
+            "require-dev": {
+                "graham-campbell/testbench": "^3.2",
+                "phpunit/phpunit": "^5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Vinkla\\Shield\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vincent Klaiber",
+                    "email": "hello@vinkla.com"
+                }
+            ],
+            "description": "A HTTP basic auth middleware for Laravel",
+            "keywords": [
+                "auth",
+                "basic",
+                "http",
+                "laravel",
+                "middleware",
+                "shield"
+            ],
+            "time": "2016-07-11 19:13:30"
         },
         {
             "name": "vlucas/phpdotenv",
