@@ -158,6 +158,18 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Vendors
+         */
+        JeroenG\Packager\PackagerServiceProvider::class,
+        Sven\EnvProviders\EnvServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+        Brotzka\DotenvEditor\DotenvEditorServiceProvider::class,
+        Laravel\Socialite\SocialiteServiceProvider::class,
+        Jtant\LaravelEnvSync\EnvSyncServiceProvider::class,
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
+        Vinkla\Shield\ShieldServiceProvider::class,
+
     ],
 
     /*
@@ -203,6 +215,12 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        /*
+         * Vendors
+         */
+        'DotenvEditor' => Brotzka\DotenvEditor\DotenvEditorFacade::class,
+        'Breadcrumbs' => ShawnSandy\PageKit\Facades\BreadcrumbFacade::class,
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
     ],
 

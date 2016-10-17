@@ -11,14 +11,30 @@
 |
 */
 
+use GrahamCampbell\Markdown\Facades\Markdown;
+use Illuminate\Http\Request;
+
 Route::get('/', function () {
     return view('index');
 });
 
 Route::get('/pages/{name}', function ($name = 'about') {
+    
     return view('pages/'.$name);
+});
+
+Route::get('/test', function() {
+    $file = Storage::disk('posts')->get('Test.md');
+    return Markdown::convertToHtml($file);
 });
 
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/session', function(Request $request){
+
+    $request->session()->put('shawnsandty', 'test session save');
+    $request->session()->save();
+ return 'Saved';
+})->middleware(['web']);

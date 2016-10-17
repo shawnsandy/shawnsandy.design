@@ -39,4 +39,10 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'github' => [
+        'client_id' => '6bfc4c336f886a0e06cf',
+        'client_secret' => 'd6e27713977e27d04b65cc78bce4535aa127fad3',
+        'redirect' => 'http://shawnsandy.app/github/login',
+    ],
+
 ];
