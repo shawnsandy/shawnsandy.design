@@ -3,7 +3,7 @@
 return [
 
     'login_type' => 'sheild',
-    'login_env' => 'local',
+    'login_env' => 'production',
 
     'page_title' => 'Laravel PageKit ',
 
