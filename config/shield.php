@@ -23,7 +23,7 @@ return [
     */
 
     'users' => [
-        'main' => ['$2y$10$wBoPEW4WJO5kTlzwkF4vw.hfGnImJV2kla4UALPNKhMLEoYUWDFL6', '$2y$10$kk9u9VdzoXAh/hL/sy6BFuUP.Prf/761rbuPMVhCBaXsYKgymS232'],
+        'main' => ['$2y$10$C2R/Lcfqp0/TkuwvH2TDzeN/MxqlOVRhHWY5clGoL0vi3C99UGQiK','$2y$10$FGfH5UzOa5N8YMLSPsxdbuBDX6JNwTifPcVZ./cgn44d.h3/Vw7J2'],
     ],
 
 ];
