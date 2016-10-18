@@ -28,7 +28,8 @@
         "adamwathan/eloquent-oauth-l5": "^0.5.1",
         "jtant/laravel-env-sync": "^1.3",
         "vinkla/shield": "^1.2",
-        "spatie/laravel-littlegatekeeper": "^1.0"
+        "spatie/laravel-littlegatekeeper": "^1.0",
+        "shawnsandy/pagekit": "^1.0"
 
     },
     "require-dev": {

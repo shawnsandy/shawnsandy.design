@@ -161,6 +161,7 @@ return [
         /*
          * Vendors
          */
+        ShawnSandy\PageKit\PageKitServiceProvider::class,
         JeroenG\Packager\PackagerServiceProvider::class,
         Sven\EnvProviders\EnvServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
@@ -221,6 +222,7 @@ return [
         'DotenvEditor' => Brotzka\DotenvEditor\DotenvEditorFacade::class,
         'Breadcrumbs' => ShawnSandy\PageKit\Facades\BreadcrumbFacade::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        'MKD' => ShawnSandy\PageKit\Facades\MarkdownFacade::class,
 
     ],
 
